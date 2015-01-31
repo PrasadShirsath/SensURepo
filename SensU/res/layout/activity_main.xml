@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/n4"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.appFactory.SensU.MainActivity" >
+
+    <ToggleButton
+        android:id="@+id/Magic_mode"
+        style="@style/Widget.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/View03"
+        android:layout_alignLeft="@+id/Pocket_mode"
+        android:text="Pocket Mode: " />
+
+    <ToggleButton
+        android:id="@+id/Pocket_mode"
+        style="@style/Widget.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/View02"
+        android:layout_alignLeft="@+id/Pick_Up"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Pick_Up"
+        android:layout_alignBottom="@+id/Pick_Up"
+        android:layout_alignRight="@+id/TextView01"
+        android:fontFamily="serif"
+        android:text="@string/pickup_mode"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#C0C0C0" />
+
+    <View
+        android:id="@+id/View03"
+        style="@style/Divider"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="54dp"
+        android:background="#8000DEFF" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Magic_mode"
+        android:layout_alignBottom="@+id/Magic_mode"
+        android:layout_alignRight="@+id/TextView01"
+        android:fontFamily="serif"
+        android:text="@string/magic_mode"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#C0C0C0" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Pocket_mode"
+        android:layout_alignBottom="@+id/Pocket_mode"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_marginLeft="31dp"
+        android:fontFamily="serif"
+        android:text="@string/pocket_mode"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#C0C0C0" />
+
+    <View
+        android:id="@+id/View01"
+        style="@style/Divider"
+        android:layout_above="@+id/Pocket_mode"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_marginBottom="27dp"
+        android:background="#8000DEFF" />
+
+    <View
+        android:id="@+id/View02"
+        style="@style/Divider"
+        android:layout_above="@+id/Magic_mode"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_marginBottom="23dp"
+        android:background="#8000DEFF" />
+
+    <ToggleButton
+        android:id="@+id/Pick_Up"
+        style="@style/Widget.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/View01"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/textView1" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="30dp"
+        android:src="@drawable/sensu" />
+
+</RelativeLayout>

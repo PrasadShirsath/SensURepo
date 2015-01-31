@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="app_name">SensU</string>
+          <string name="app_subtitle">Feel the digital silence</string>
+     
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+        <string name="pickup_mode">Pick-up</string>
+                <string name="pickup_mode_details">I keep quiet when you pick me up.</string>
+        <string name="pocket_mode">Pocket-out</string>
+                <string name="pocket_mode_details">Mutes the ringtone when you pull me out of pocket.</string>
+        
+        <string name="magic_mode">Magic mode</string>
+                <string name="magic_mode_deatails">Swipe over me to silence the ringtone.</string>
+                             <string name="start">Let\'s Start</string>
+                
+                <string name="action_share">Share</string>
+           <string name="action_rate">Rate</string>
+                      <string name="dnd">Don\'t show again</string>
+           
+           
+                
+        
+        
+</resources>
