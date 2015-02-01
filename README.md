@@ -5,7 +5,7 @@ Aimed to prove the idea that more the device knows about user, tasks and environ
 
 Technologies used => Android, SensorManager, Google places API, Geo-Coding
 
-<a href="https://play.google.com/store/apps/details?id=https://play.google.com/store/apps/details?id=com.prasad.SensU">
+<a href="https://play.google.com/store/apps/details?id=com.prasad.SensU">
   <img alt="Get it on Google Play"
        src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
 </a>
