@@ -9,3 +9,11 @@ Technologies used => Android, SensorManager, Google places API, Geo-Coding
   <img alt="Get it on Google Play"
        src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
 </a>
+
+<img src="https://github.com/PrasadShirsath/SensURepo/blob/master/28aea434-38ad-4692-a93c-dd69823c239f.png" width="400" height="600" />
+<img src="https://github.com/PrasadShirsath/SensURepo/blob/master/32a8b343-4178-4174-baf7-040afc77a350.png" width="400" height="600" />
+<img src="https://github.com/PrasadShirsath/SensURepo/blob/master/7651b079-74a5-4359-b453-fc5300a5a324.png" width="400" height="600" />
+<img src="https://github.com/PrasadShirsath/SensURepo/blob/master/a6ea3184-accc-4965-b577-dd60d7d1f668.png" width="400" height="600" />
+<img src="https://github.com/PrasadShirsath/SensURepo/blob/master/Screenshot_2014-11-29-05-08-22_framed.png" width="400" height="600" />
+
+
