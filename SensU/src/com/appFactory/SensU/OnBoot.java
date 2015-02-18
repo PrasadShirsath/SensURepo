@@ -11,20 +11,15 @@ import android.content.Intent;
  * 
  * 
  */
-public class OnBoot extends BroadcastReceiver
-{
-	 @Override
-	 public void onReceive(Context aContext, Intent aIntent) 
-	 {
-		 //start our service
-		 try
-		 {
-			 aContext.startService(new Intent(aContext,SensorService.class));
-		 }
-		 catch(Exception e)
-		{
-		
-		}
-	}
+public class OnBoot extends BroadcastReceiver {
+    @Override
+    public void onReceive(Context aContext, Intent aIntent) {
+        //start our service
+        try {
+            aContext.startService(new Intent(aContext, SensorService.class));
+        } catch (Exception e) {
+
+        }
+    }
 
 }

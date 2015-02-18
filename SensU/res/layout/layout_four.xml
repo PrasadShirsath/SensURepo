@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-     xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-   android:background="@drawable/n4"
-   android:orientation="vertical"
-    >
+    android:background="@drawable/n4"
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/imageView1"
@@ -23,12 +21,11 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="14dp"
         android:fontFamily="serif"
+        android:gravity="center_horizontal"
         android:text="@string/magic_mode_deatails"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/white"
-        android:textSize="20dip"
-        android:gravity="center_horizontal"
-         />
+        android:textSize="20dip" />
 
     <CheckBox
         android:id="@+id/checkBox1"

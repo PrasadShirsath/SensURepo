@@ -11,39 +11,41 @@
             backward-compatibility can go here.
         -->
     </style>
-      <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <item name="android:windowActionBarOverlay">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
-      <!-- Overwrite the ToggleButton style -->
+    <!-- Overwrite the ToggleButton style -->
     <style name="Widget.Button.Toggle" parent="android:Widget">
         <item name="android:background">@drawable/btn_toggle_bg</item>
         <item name="android:textOn"></item>
         <item name="android:textOff"></item>
         <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
     </style>
-     
-<style name="text_title">
-		<item name="android:layout_width">fill_parent</item>
-		<item name="android:layout_height">wrap_content</item>
-		<item name="android:textColor">@color/d_gray</item>
-		<item name="android:gravity">center</item>
-    </style>
-<style name="Divider">
-    <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">2dp</item>
-    <item name="android:background">?android:attr/listDivider</item>
-</style>
 
- 
-     <style name="Theme.Transparent" parent="android:Theme">
-    <item name="android:windowIsTranslucent">true</item>
-    <item name="android:windowBackground">@android:color/transparent</item>
-    <item name="android:windowContentOverlay">@null</item>
-    <item name="android:windowNoTitle">true</item>
-    <item name="android:windowIsFloating">true</item>
-    <item name="android:backgroundDimEnabled">true</item>
-  </style>
+    <style name="text_title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/d_gray</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
 
 </resources>
